@@ -1,0 +1,30 @@
+.Quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  background: #fff;
+  height: 100vh;
+}
+
+.Quiz h1 {
+  color: rgb(40, 164, 145);
+  margin-left: 10px;
+  font-family: Domine;
+  font-size: 24px;
+}
+
+.QuizWrapper {
+  width: 600px;
+  max-width: 1200px;
+}
+@media (max-width: 520px) {
+  .Quiz h1 {
+    color: rgb(40, 164, 145);;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .Quiz {
+  }
+}

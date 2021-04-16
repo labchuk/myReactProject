@@ -1,0 +1,60 @@
+.Button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button:active {
+  box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+/*.Button:disabled {*/
+/*  background: #ccc;*/
+/*  color: #000;*/
+/*  cursor: not-allowed;*/
+/*}*/
+
+
+.success {
+  background: rgb(40, 164, 145);
+}
+
+.error {
+  background: rgba(240, 87, 108, 1);
+}
+
+.primary {
+  background: #f61314;
+  color: #ffffff;
+}
+
+/*@media (max-width: 520px) {*/
+/*  .Button {*/
+/*    padding: 8px 15px;*/
+/*    border-radius: 4px;*/
+/*    color: #000;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+/*    font-size: 12px;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 350px) {*/
+/*  .Button {*/
+/*    padding: 8px 10px;*/
+/*    border-radius: 4px;*/
+/*    color: #000;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+/*    font-size: 10px;*/
+/*  }*/
+/*}*/

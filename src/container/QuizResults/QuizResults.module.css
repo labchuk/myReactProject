@@ -1,0 +1,71 @@
+.QuizResults {
+    background: #fff;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 8%) 0 5px 10px 0;
+    margin-bottom: 40px;
+}
+.QuizResults li {
+    margin-bottom: 20px;
+}
+.progress {
+    background: #efefef;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+}
+.progress_bar{
+    background: linear-gradient(90deg, rgba(173,190,179,0.2976540958180147) 0%, rgb(40, 164, 145) 100%);
+    border-radius: 5px;
+    text-align: center;
+    font-family: Domine;
+    font-weight: 700;
+}
+.Result {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.firstSpan {
+    font-size: 14px;
+}
+/*.spanName{*/
+/*    font-weight: 700;*/
+/*}*/
+
+.dateMax{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.dateMin{
+    display: none;
+}
+.NoResults h1 {
+    font-size: 20px;
+    color: rgb(40, 164, 145);
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.NoResults p {
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .dateMax{
+        display: none;
+    }
+    .firstSpan {
+        margin-bottom: 5px;
+    }
+    .dateMin{
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10px;
+        display: block;
+    }
+}

@@ -1,0 +1,122 @@
+
+
+.Layout {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+}
+.sidebar__nav {
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  bottom: 0px;
+  width: 280px;
+  height: 100vh;
+  padding: 50px 30px 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 5px 10px 0;
+  z-index: 10;
+}
+.content {
+  display: flex;
+  background-color: rgb(245, 247, 250);
+  flex: 1 1 0%;
+  flex-direction: column;
+  position: relative;
+  overflow: auto;
+}
+.content__page{
+  max-width: 890px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.header_logo img {
+  width: 77px;
+  height: 77px;
+}
+.logout img{
+  width: 20px;
+}
+.sidebar_component li {
+  margin-bottom: 30px;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.sidebar_component i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.sidebar_component i img{
+  width: 30px;
+}
+.sidebar_component a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.sidebar_component a:hover{
+   color: #000000;
+ }
+@media(max-width: 768px) {
+  .sidebar__nav {
+    width: 225px;
+    padding: 50px 20px;
+  }
+}
+@media(max-width: 600px) {
+  .Layout {
+    padding-bottom: 70px;
+  }
+  .sidebar__nav {
+    bottom: 0;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
+    padding: 20px 5px;
+    border-top: 1px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar__logo{
+    display: none;
+  }
+  .sidebar_component ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .sidebar_component {
+    width: 100%;
+  }
+  .sidebar_component li img{
+    width: 28px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    background-size: cover;
+  }
+  .sidebar_component li i{
+    margin-right: 0;
+    background-size: cover;
+  }
+  .sidebar_component li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+.QuizCreator{
+
+
+}
+.container {
+    box-shadow: rgb(0 0 0 / 8%) 0 5px 10px 0;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+}

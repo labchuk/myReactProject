@@ -1,0 +1,88 @@
+.MyQuiz {
+  display: flex;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  padding: 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0 5px 10px 0;
+  margin-bottom: 40px;
+  background: #fff;
+}
+.container h1 {
+  color: #239b89;
+  text-align: left;
+  font-family: Domine;
+  font-size: 20px;
+  margin: auto 0;
+
+}
+.CreatorBtn {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0px;
+}
+.CreatorBtn a {
+  color: #ffff;
+}
+.Tests {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f6f6f6a1;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+}
+.NoTest {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Tests li {
+  margin-bottom: 15px;
+  color: #000000;
+}
+.Tests a {
+  color: #000000;
+}
+.Tests span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.date {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  align-items: flex-end;
+}
+
+.QuizCreator form {
+  /* background: #eeeeee; */
+  box-shadow: 1px 0 2px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  padding: 15px;
+}
+
+
+.Wrapper {
+  /*transform: translateY(-1100px);*/
+  /*transition: transform 0.7s ease-in;*/
+}
+.Wrapper.Show {
+  transform: translateY(0px);
+}
+@media (max-width: 520px) {
+  .container {
+    margin-top: 30px;
+  }
+  .container h1 {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+  }
+  .container span {
+    font-size: 14px;
+  }
+  .QuizCreator h1 {
+    font-size: 20px;
+  }
+}

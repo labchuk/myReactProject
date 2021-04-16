@@ -1,0 +1,43 @@
+.FinishedQuiz {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  box-shadow: 0px 0 5px rgb(0 0 0 / 20%);
+}
+
+.FinishedQuiz ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.FinishedQuiz p {
+  margin-bottom: 15px;
+}
+
+.FinishedQuiz ul li i {
+  margin-left: 10px;
+}
+
+.success {
+  color: rgba(161, 240, 69, 0.7);
+}
+
+.error {
+  color: rgba(240, 87, 108, 0.7);
+}
+
+.progress {
+  background: #efefef;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 2px;
+}
+.progress_bar{
+  background: linear-gradient(90deg, rgba(173,190,179,0.2976540958180147) 0%, rgb(40, 164, 145) 100%);
+  border-radius: 5px;
+  text-align: center;
+  font-family: Domine;
+  font-weight: 700;
+}

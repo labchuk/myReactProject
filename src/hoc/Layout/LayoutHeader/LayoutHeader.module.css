@@ -1,0 +1,10 @@
+.layout_header h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #444;
+}
+.layout_header {
+    border-bottom: 1px solid #ccc;
+    margin: 0px 0px 20px;
+    padding-bottom: 30px;
+}

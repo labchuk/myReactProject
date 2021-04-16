@@ -1,0 +1,20 @@
+.logo_container span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #737272;
+    font-family: "Raleway";
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo_container a{
+    text-decoration: none;
+}
+.logo_container{
+    /*margin-bottom: 25px;*/
+}
+@media (max-width: 500px) {
+    .logo_container span {
+        font-size: 14px;
+    }
+}
